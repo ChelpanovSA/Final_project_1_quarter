@@ -1,0 +1,15 @@
+C:\Users\sinte\Desktop\GB\Итоговый проект 1 четверть\bin\Debug\net6.0\Итоговый проект 1 четверть.exe
+C:\Users\sinte\Desktop\GB\Итоговый проект 1 четверть\bin\Debug\net6.0\Итоговый проект 1 четверть.deps.json
+C:\Users\sinte\Desktop\GB\Итоговый проект 1 четверть\bin\Debug\net6.0\Итоговый проект 1 четверть.runtimeconfig.json
+C:\Users\sinte\Desktop\GB\Итоговый проект 1 четверть\bin\Debug\net6.0\Итоговый проект 1 четверть.dll
+C:\Users\sinte\Desktop\GB\Итоговый проект 1 четверть\bin\Debug\net6.0\Итоговый проект 1 четверть.pdb
+C:\Users\sinte\Desktop\GB\Итоговый проект 1 четверть\obj\Debug\net6.0\Итоговый проект 1 четверть.csproj.AssemblyReference.cache
+C:\Users\sinte\Desktop\GB\Итоговый проект 1 четверть\obj\Debug\net6.0\Итоговый проект 1 четверть.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sinte\Desktop\GB\Итоговый проект 1 четверть\obj\Debug\net6.0\Итоговый проект 1 четверть.AssemblyInfoInputs.cache
+C:\Users\sinte\Desktop\GB\Итоговый проект 1 четверть\obj\Debug\net6.0\Итоговый проект 1 четверть.AssemblyInfo.cs
+C:\Users\sinte\Desktop\GB\Итоговый проект 1 четверть\obj\Debug\net6.0\Итоговый проект 1 четверть.csproj.CoreCompileInputs.cache
+C:\Users\sinte\Desktop\GB\Итоговый проект 1 четверть\obj\Debug\net6.0\Итоговый проект 1 четверть.dll
+C:\Users\sinte\Desktop\GB\Итоговый проект 1 четверть\obj\Debug\net6.0\refint\Итоговый проект 1 четверть.dll
+C:\Users\sinte\Desktop\GB\Итоговый проект 1 четверть\obj\Debug\net6.0\Итоговый проект 1 четверть.pdb
+C:\Users\sinte\Desktop\GB\Итоговый проект 1 четверть\obj\Debug\net6.0\Итоговый проект 1 четверть.genruntimeconfig.cache
+C:\Users\sinte\Desktop\GB\Итоговый проект 1 четверть\obj\Debug\net6.0\ref\Итоговый проект 1 четверть.dll
