@@ -5,10 +5,10 @@
 // ["1234","1567","-2","computer scince"]->["-2"]
 // ["Russia","Denmark","Kazan"]->[]*
 
+
 Console.Clear();
 
-
-// Размер искомого массива 
+// Pазмер искомого массива 
 int SearchValidSizeArray(string[] fullArray, int lengthElement)
 {
     string[] validArray = new string[fullArray.Length];
@@ -25,7 +25,7 @@ int SearchValidSizeArray(string[] fullArray, int lengthElement)
     return validSizeArray;
 }
 
-// Mассив из строк, длина которых меньше либо равна заданному количеству символов 
+// Массив из строк, с длинной меньше либо равной нашему количеству символов 
 string[] GetLimitLengthElementArray(string[] fullArray, int lengthElement, int sizeArray)
 {
     string[] resultArray = new string[sizeArray];
@@ -50,7 +50,7 @@ string[] GetLimitLengthElementArray(string[] fullArray, int lengthElement, int s
     return resultArray;
 }
 
-// вывожу масивы на экран 
+// вывод  масива на экран 
 void PrintArray(string[] array)
 {
     Console.Write("[");
@@ -60,3 +60,29 @@ void PrintArray(string[] array)
     }
     Console.Write($"{array[array.Length - 1]}]");
 }
+
+// метод ввода первоначального массива с клавы
+string[] UserEntersArray()
+{
+    Console.Write("Укажите сколько строк Вы хотите ввести: ");
+    int countString = Convert.ToInt32(Console.ReadLine());
+    string[] newArray = new string[countString];
+    if (countString <= 0) Console.WriteLine("Попробуйте снова, когда захотите что-нибудь ввести!");
+    else
+    {
+        for (int i = 0; i < countString; i++)
+        {
+            Console.Write($"Введите строку №{i + 1}: ");
+            newArray[i] += Console.ReadLine();
+        }
+    }
+    return newArray;
+}
+
+int lengthString = 3; 
+string[] userArray = UserEntersArray();
+Console.WriteLine($"Ниже [введенные Вами строки] и [строки, длина которых меньше либо равна {lengthString} символам]:");
+PrintArray(userArray);
+Console.Write("->");
+int validSizeArray = SearchValidSizeArray(userArray, lengthString);
+PrintArray(GetLimitLengthElementArray(userArray, lengthString, validSizeArray));
